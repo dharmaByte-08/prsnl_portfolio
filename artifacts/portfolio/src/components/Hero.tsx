@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Instagram, Send, Mail } from "lucide-react";
-import avatarUrl from "@assets/generated_images/avatar.jpeg";
+import avatarUrl from "@assets/generated_images/avatar.png";
 
 export function Hero() {
   const [text, setText] = useState("");
@@ -76,14 +76,14 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mb-8 relative"
         >
-          <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-border relative z-10 bg-card">
+          <div className="w-38 h-40 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-border relative z-10 bg-card">
             <img 
               src={avatarUrl} 
               alt="Dharmendra Kanzariya" 
               className="w-full h-full"
               onError={(e) => {
                 e.currentTarget.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23aaa"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>';
-                e.currentTarget.className = "w-full h-full object-cover p-4 opacity-50";
+                e.currentTarget.className = "w-full h-full object-cover opacity-50";
               }}
             />
           </div>
