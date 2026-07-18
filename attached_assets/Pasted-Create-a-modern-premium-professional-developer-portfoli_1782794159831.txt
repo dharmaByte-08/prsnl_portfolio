@@ -1,0 +1,220 @@
+Create a modern, premium, professional developer portfolio website for a personal profile.
+
+Theme:
+
+* Support both Dark Mode and Light Mode
+* Default: Dark theme
+* Smooth theme toggle with icon transition
+* Clean, premium, minimal design
+* Mobile-first and fully responsive
+* Modern developer aesthetic (not corporate)
+
+Tech expectation:
+
+* Modern responsive frontend architecture
+* Smooth animations
+* Fast loading
+* Accessible UI
+* Clean component structure
+
+Person Details:
+Name: Jon Stark
+Age: 23
+Role: Laravel Developer
+Experience: 2 Years
+
+Short Intro:
+Passionate Laravel Developer with 2 years of experience building scalable web applications and business solutions. Interested in backend architecture, clean UI, and creating practical digital products.
+
+Navigation:
+
+* Home
+* About
+* Skills
+* Projects
+* Contact
+* Optional Blog (hidden initially)
+
+Global UI Rules:
+
+* Sticky navbar with blur effect
+* Smooth scroll navigation
+* Elegant hover interactions
+* Soft shadows
+* Rounded modern cards
+* Subtle gradients
+* No excessive flashy effects
+* Premium typography
+* Section reveal animation on scroll
+* Mobile optimized spacing
+* Professional color balance
+
+SECTION 1 — HERO
+Layout:
+
+* Professional developer photo/avatar
+* Large name typography
+* Role text with animated typing effect
+* Short professional introduction
+* CTA Buttons:
+
+  * View Projects
+  * Contact Me
+* Social Icons:
+
+  * GitHub
+  * LinkedIn
+  * Instagram
+  * Telegram
+  * Email
+
+Animation:
+
+* Smooth fade + slide entrance
+* Floating background shapes
+* Minimal particle effect
+
+SECTION 2 — ABOUT
+Title:
+About Me
+
+Content:
+Create 2 professional paragraphs.
+
+Paragraph 1:
+Introduce Jon Stark as a Laravel Developer with 2 years of practical development experience focused on building business applications.
+
+Paragraph 2:
+Describe growth mindset, learning attitude, backend interest, scalability thinking, and future expansion toward modern technologies.
+
+Add:
+
+* Experience: 2 Years
+* Role: Laravel Developer
+* Age: 23
+
+Layout:
+Split content with clean spacing.
+
+SECTION 3 — SKILLS
+Display grouped skill cards.
+
+Backend:
+
+* PHP
+* Python
+* Laravel
+* Django
+* MySQL
+
+Frontend:
+
+* HTML
+* CSS
+* SCSS
+* JavaScript
+* Tailwind CSS
+
+Tools:
+
+* Git
+* GitHub
+
+UI:
+
+* Animated skill cards
+* Hover interaction
+* No percentage bars
+* Clean categorized layout
+
+SECTION 4 — PROJECTS
+Create premium project showcase cards.
+
+Project 1:
+Expense Management
+Type: Personal Project
+Description:
+Personal finance and expense tracking system.
+
+Project 2:
+Stock Management
+Stack:
+Laravel, PHP, MySQL, Livewire Component, Blade View, Tailwind CSS
+
+Project 3:
+Job Portal
+Stack:
+Laravel, PHP, MySQL, Livewire Component, Blade View, Tailwind CSS
+
+Project 4:
+ERP SaaS Product
+Stack:
+Laravel, PHP, MySQL, Livewire Component, CSS, JavaScript
+
+Project 5:
+Document Management
+Stack:
+Laravel, PHP, MySQL, Livewire Component, Blade View, Bootstrap
+
+Each Project Card:
+
+* Screenshot area
+* Title
+* Short description
+* Tech stack badges
+* GitHub button
+* Live preview button
+
+Animation:
+
+* Hover elevate
+* Card reveal
+* Smooth transitions
+
+SECTION 5 — CONTACT
+Layout:
+Two column desktop
+Single column mobile
+
+Contact Form:
+
+* Name
+* Email
+* Mobile Number
+* Subject
+* Message
+
+Contact Details:
+
+* Mobile Number
+* Email
+* Instagram
+* LinkedIn
+* GitHub
+* Telegram
+
+Extra:
+
+* Validation
+* Success state
+* Form Submitted success that msg send on my email
+* Elegant form focus effects
+
+FOOTER
+Include:
+
+* Name
+* Short tagline
+* Social links
+* Copyright
+
+Final Requirements:
+
+* Single Page Portfolio
+* Professional UI
+* Mobile Friendly
+* Smooth animations
+* Premium spacing
+* Production-ready appearance
+* No template feeling
+* Developer portfolio quality comparable to top modern portfolios
