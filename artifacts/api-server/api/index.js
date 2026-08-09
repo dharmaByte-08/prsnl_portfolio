@@ -1,1 +1,3 @@
-export { default } from "../dist/serverless.mjs";
+import app from "../dist/serverless.mjs";
+
+export default app;
