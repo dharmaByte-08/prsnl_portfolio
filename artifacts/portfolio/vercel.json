@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://prsnl-portfolio-api-server-ten.vercel.app/api/:path*"
+    }
+  ]
+}

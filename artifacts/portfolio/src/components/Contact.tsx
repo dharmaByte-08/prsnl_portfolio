@@ -37,7 +37,8 @@ export function Contact() {
 
     try {
       // 1. Save to database — this is the primary success signal
-      const res = await fetch("/api/contact", {
+      const apiBaseUrl = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
+      const res = await fetch(`${apiBaseUrl}/api/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
