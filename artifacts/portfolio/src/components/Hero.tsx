@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Instagram, Send, Mail } from "lucide-react";
 import avatarUrl from "@assets/generated_images/avatar.png";
+import resumeUrl from "@assets/generated_images/dharmendra_resume.pdf.pdf?url";
 
 export function Hero() {
   const [text, setText] = useState("");
@@ -134,9 +135,10 @@ export function Hero() {
             View Projects
           </button>
           <a
-            href="/resume.pdf"
+            href={resumeUrl}
             target="_blank"
             rel="noopener noreferrer"
+            download="Dharmendra-Kanzariya-Resume.pdf"
             className="px-8 py-4 bg-transparent border border-border text-foreground font-medium rounded-md hover:border-primary hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background inline-flex items-center justify-center"
           >
             Resume
